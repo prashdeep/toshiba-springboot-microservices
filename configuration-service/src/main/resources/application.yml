@@ -1,0 +1,12 @@
+spring:
+  cloud:
+    config:
+      server:
+        native:
+          search-locations: file:///E:/config/assetmgmt, file:///E:/config/licensingservice
+      allow-override: true
+  profiles:
+    active: native
+
+server:
+  port: 8888

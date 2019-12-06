@@ -1,0 +1,6 @@
+encrypt:
+  key: ObscureString
+spring:
+  application:
+    name:
+      name: configservice
